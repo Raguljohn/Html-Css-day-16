@@ -1,99 +1,70 @@
-.box{
- border: 35px solid rgb(58, 58, 58);  
- height:0px;
- color: white;
- text-align: center;
- padding:0px;
- margin:0px;
- letter-spacing:6px;
- font-size:20px;
- 
- 
-}
-
-body{
-    background-color:rgb(190, 188, 188);
+*{
     margin:0px;
+    padding:0px;
+   
+
 }
-
-input{
-    border-radius:10px;
-    width:450px;
-    height:30px;
-    background-color:rgb(58, 58, 58); 
-    letter-spacing:3px;
-    position: absolute; 
-    right: 80px;
-    padding:6px;
-    margin:60px;
-    
-}
-
-.box1{
-    background-color:rgb(58, 58, 58); 
-    width:250px;
-    height:450px;
-    position: absolute; 
-    left:1px;
-    margin:70px;
-    padding:10px;
-    border-radius:14px;
-        
-}
-
-.box6{
-    background-color:rgb(58, 58, 58); 
-    width:700px;
-    height:135px;
-    position: absolute;
-    bottom:1px;
-    right:10px;
-    margin:50px;
-    border-radius:14px;
-}
-
-
-.box3{
-    background-color:rgb(58, 58, 58); 
-    width:230px;
-    height:150px;
-    position:absolute;
-    right: 75px;
-    bottom:1px;
-    margin-bottom:250px;
-    margin-right:280px;
-    border-radius:14px;
+body{
+    display:grid;
+    place-content:center;
+    min-height:100vh;
+    background-color:rgb(250, 250, 250)  
    
 }
 
-.box4{
-    background-color:rgb(58, 58, 58); 
-    width:230px;
-    height:150px;
-    position:absolute;
-    right: 60px;
-    bottom:1px;
-    margin-bottom:250px;
-    border-radius:14px;
+.container{
+    background-color:white ;
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
 }
 
-.box5{
-    background-color:rgb(58, 58, 58); 
-    width:230px;
-    height:150px;
-    position:absolute;
-    right: 18px;
-    margin-top:180px;
-    margin-right:640px;
-    border-radius:14px;  
+input[type="text" i]{
+    width: 180px;
+    position: relative;
+ left: 30px;
  
 }
 
-.fa-github{
-    position:absolute;
-    left: 18px;
-    font-size:30px;
-    top: 1px;
-    margin-top:24px;
-    
+.checked{
+    color:orange;
 }
+
+.form ul li {
+ display:inline-block;
+ list-style:none;
+ width: 135px;
+ text-align: -webkit-right;
+ position: relative;
+ left: 190px;
+}
+
+.survey-form{
+    line-height: 2.6em;
+}
+
+h5{
+    margin:0px;
+    padding:0px;
+}
+
+input[type="email" i] {
+    position: relative;
+ left: 40px;
+}
+  .form-box li{
+    display:inline-block;
+    list-style:none;
+    width: 135px;
+    position: relative;
+    left: 260px;
+    text-align: -webkit-right;
+  }
+
+  input[type="checkbox" i]{
+    position: relative;
+    left:1px;
+    width: 135px;
+  }
+
+  span{
+    color:red;
+  }

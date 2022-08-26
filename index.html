@@ -4,21 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/25b3cf34d5.js" crossorigin="anonymous"></script>
+    <title>forms</title>
+    <link rel = "stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
-    <div class="container">
-        
-     <div class="box"><i class="fa-brands fa-github"></i> GITHUB  </div>
-     <input type ="text" placeholder="Search">
-     <div class="box1"></div>
-     <div  class="box2"></div>
-     <div class="box3"></div>
-     <div class="box4"></div>
-     <div class="box5"></div>
-     <div class="box6"></div>
+  <div class="container">
+    <form action="#">
+ <div class="survey-form">
+   <label for="fN">Name <span>*</span></label>
+   <input type="text" id="fN" name="fN">
+   <input type="text" id="fN" name="fN"> <br>
+   <label for="email">Email<span>*</span></label>
+   <input type="email" name="email" required><br>
+   <label for="exp"> Experience <span>*</span></label> <br>
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star"></span>
+   <span class="fa fa-star"></span>
+   <p>Overall,how would you rate you experience with us?</p>
+   <h3>How satisfied are you with<span>*</span></h3>
+   
+      <div class="form">
+        <ul>
+      <li>very unsatisfied</li>
+      <li>unsatisfied</li>
+      <li> neutral</li>
+      <li> satisfied</li>
+      <li> very satisfied</li>
+    </ul>
+  </div>
+    <table style="width:100%">
+      <tr>
+        <td><label>Purchase</label></td>
+        <td><input type="checkbox"> <input type="checkbox"> <input type="checkbox"> <input type="checkbox"> <input type="checkbox"> </td>
+      </tr>
+
+      <tr>
+        <td><label>Service</label></td>
+        <td><input type="checkbox"> <input type="checkbox"> <input type="checkbox"> <input type="checkbox"> <input type="checkbox"> </td>
+      </tr>
+
+      <tr>
+        <td><label>Company Overall</label></td>
+        <td><input type="checkbox"> <input type="checkbox"> <input type="checkbox"> <input type="checkbox"> <input type="checkbox"> </td>
+      </tr>
+
+      <tr>
+     <td> <h3>How likely are you to <span>*</span></h3></td>
+    </tr>
+    </table>
+  
+      <div class="form-box">
+      <ul>
+       <li>very unlikely</li>
+       <li>unlikely</li>
+       <li>neutral</li>
+       <li>likely</li>
+       <li>very likely</li>
+      </ul>
     </div>
+  <table>
+      <tr>
+        <td><label>Buy from us again</label></td>
+        <td><input type="checkbox"> <input type="checkbox"> <input type="checkbox"> <input type="checkbox"> <input type="checkbox"> </td>
+      </tr>
+
+      
+      <tr>
+        <td><label>Recommend our product to others
+        </label></td>
+        <td><input type="checkbox"> <input type="checkbox"> <input type="checkbox"> <input type="checkbox"> <input type="checkbox"> </td>
+      </tr>
+
+      <tr>
+        <td><label>Recommend our company to others</label></td>
+        <td><input type="checkbox"> <input type="checkbox"> <input type="checkbox"> <input type="checkbox"> <input type="checkbox"> </td>
+      </tr>
+    <tr>
+      <td><h3>Addtionals comments or suggestions</h3></td>
+    </tr>
+    
+      
+  </table>
+   <textarea style="width:800px; height: 100px"></textarea> <br>
+   <td><input type="submit"></td>
+ </div>
+</form>
+</div>
 </body>
-</html>
+
+
+</html>  
